@@ -1,0 +1,36 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color:#F5F8FF;
+}
+header{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+nav{
+    max-width: 1140px;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+nav ul{
+    display: flex;
+    gap:15px;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+     text-decoration: none;
+     color: #252432;
+}
